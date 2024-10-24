@@ -29,7 +29,7 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
 local Section = Tab:AddSection({
-	Name = "BEST Script For The Hunt! (More Script Will Added Stay Tuned)"
+	Name = "BEST Script For The Haunt! (More Script Will Added Stay Tuned)"
 })
 
 --[[
@@ -58,16 +58,16 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "",
+	Name = "Color Or Die! [Auto Farm Candy]",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ColororDie"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "",
+	Name = "Keys [Collect All Pumpkins]",
 	Callback = function()
-      		
+      		loadstring(game:HttpGet("https://pastefy.app/Ht1yIY2S/raw"))()
   	end    
 })
 
