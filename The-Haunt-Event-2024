@@ -58,16 +58,23 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Color Or Die! [Auto Farm Candy]",
+	Name = "Doors [ESP Candy]",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ColororDie"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
   	end    
 })
 
 Tab:AddButton({
-	Name = "Doors [ESP Items & Candys]",
+	Name = "Pull A Sword [Auto Farm]",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/main/PaS"))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Color Or Die [Auto Farm Candy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ColororDie"))()
   	end    
 
 })
