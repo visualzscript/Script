@@ -79,6 +79,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Banana Eats [Auto Collect Pumpkins",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://pastefy.app/6Ejdwyel/raw'),true))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Color Or Die [Auto Farm Candy",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ColororDie"))()
