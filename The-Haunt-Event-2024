@@ -72,6 +72,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Dress To Impress",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/DressToImpress"))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Color Or Die [Auto Farm Candy",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraScript/Script/main/ColororDie"))()
