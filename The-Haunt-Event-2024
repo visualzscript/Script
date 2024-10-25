@@ -65,9 +65,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Doors [ESP Candys]",
+	Name = "Doors [ESP Items & Candys]",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Candies/refs/heads/main/Doors"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))()
   	end    
 
 })
