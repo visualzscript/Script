@@ -65,6 +65,14 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "Doors [ESP Candys]",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Candies/refs/heads/main/Doors"))()
+  	end    
+
+})
+
+Tab:AddButton({
 	Name = "Keys [Collect All Pumpkins]",
 	Callback = function()
       		loadstring(game:HttpGet("https://pastefy.app/Ht1yIY2S/raw"))()
