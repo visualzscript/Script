@@ -79,6 +79,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "The Mimic [Auto Farm & ESP Candy",
+	Callback = function()
+      		loadstring(game:HttpGet"https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt")()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "Banana Eats [Auto Collect Pumpkins",
 	Callback = function()
       		loadstring(game:HttpGet(('https://pastefy.app/6Ejdwyel/raw'),true))()
