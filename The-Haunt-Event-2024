@@ -79,6 +79,13 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
+	Name = "MM2 [Auto Farm Candy]",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Ahmadv999/MM2/refs/heads/main/HalloweenScript'))()
+  	end    
+})
+
+Tab:AddButton({
 	Name = "The Mimic [Auto Farm & ESP Candy",
 	Callback = function()
       		loadstring(game:HttpGet"https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt")()
